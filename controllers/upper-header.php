@@ -1,20 +1,25 @@
 
 <div class="language-area">
     <div class="container px-0">
-        <div class="row py-10">
+        <div class="row">
             
-            <div class="col-md-10 col-sm-6 col-xs-8 text-center">
-                <a href="index.php">
-                    <img src="images/logo.png" width="120px" alt="">
-                </a>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle py-15" type="button" data-toggle="dropdown">  
+                    <span> <img height="25px" width="25px" class="mb-3 rounded" src="images/profile.png" alt=""></span><small class="color-white font-regular px-adjust">ابراهيم شمس</small><span class="caret color-white"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile.php" class="py-10">
+                            <i class="icon-settings color-primary px-5"></i>    
+                            <span class="color-black">الاعدادات</span></a></li>
+                        
+                        <li class="text-center" class="py-10"><a href="#" >
+                        <i class="icon-exit color-primary px-5"></i> 
+                            <span class="color-black">تسجيل الخروج</span></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-2 col-sm-3 col-xs-4 select-lang">
-                <select class="form-control borderless" id="">
-                    <option value="" >Arabic</option>
-                    <option value="" selected>English </option>
-                </select>
-                
-            </div>
+            
         </div>
     </div>
 </div>

@@ -102,22 +102,144 @@
     </div>
     <div class="container">
         <div class="row">
+            <div class="col-sm-8">
+                <article class="gray-bg mt-20">
+                    <h5 ><strong>سياره سكودا فليشا</strong></h5>
+                    <hr>
+                    <p class="mb-10"> <i class="icon-placeholder color-primary"></i> <span class="size-12 color-gray">منطقة الرياض</span></p>
+                <p>
+                    <div class="row">
+                        <div class="col-sm-4 px-0">
+                            <i class="icon-userr color-primary"></i> <span class="size-12 color-gray">احمد آل ابو هشيمه </span>
+                        </div>
+                        <div class="col-sm-4 px-0">
+                            <i class=" icon-clock color-primary"></i> <span class="size-12 color-gray">منذ ساعه</span>
+                        </div>
+                        <div class="col-sm-4 px-0">
+                            <i class=" icon-love color-primary"></i> <span class="size-12 color-gray"> 30 اعجاب</span>
+                        </div>
+                    </div>
+                </p>
+                </article>
+                <p class="color-gray mt-20">هذا النص سيتغير هذا النص سيتغير
+                    هذا النص سيتغير هذا النص سيتغيرهذا 
+                    النص سيتغير هذا النص سيتغير هذا
+                    سيتغير هذا النص سيتغيرهذا النص سيتغير هذا 
+                    النص سيتغير هذا سيتغير هذا النص سيتغيرهذا 
+                    هذا النص سيتغير هذا النص سيتغيرهذا 
+                    النص سيتغير هذا النص سيتغير هذا
+                    سيتغير هذا النص سيتغيرهذا النص سيتغير هذا 
+                    النص سيتغير هذا سيتغير هذا النص سيتغيرهذا 
+                    هذا النص سيتغير هذا النص سيتغيرهذا 
+                    النص سيتغير هذا النص سيتغير هذا
+                    سيتغير هذا النص سيتغيرهذا النص سيتغير هذا 
+                    النص سيتغير هذا سيتغير هذا النص سيتغيرهذا 
+                    هذا النص سيتغير هذا النص سيتغيرهذا 
+                    النص سيتغير هذا النص سيتغير هذا
+                    سيتغير هذا النص سيتغيرهذا النص سيتغير هذا 
+                    النص سيتغير هذا سيتغير هذا النص سيتغيرهذا 
+                    النص سيتغير هذا النص سيتغير هذا النص سيتغير 
+                </p>
+                <section class="text-reverse mt-30">
+                    <a href="ad-details.php" class="color-primary underlined"><strong>الاعلان التالى</strong></a>
+                </section>
+            </div>
+            <div class="col-sm-4">
+                <section class="auction-timer">
+                    <h5 class="text-center"><strong>التواصل</strong></h5>
+                    <section class="text-center">
+                        <button type="button" class="btn btn-primary mb-20">
+                            0100100101
+                        </button>
+                    </section>
+
+                    <h5 class="text-center"><strong>او ارجو المراسله عن طريق الرسائل الخاصه</strong></h5>
+                    <hr class="my-10 mt-30">
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>سامسونج</small></button>
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>ابل</small></button>
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>شاومى</small></button>
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>ابل</small></button>
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>شاومى</small></button>
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>سامسونج</small></button>
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>ابل</small></button>
+                        <button type="button" class="btn btn-default ma-5 px-5"><small>شاومى</small></button>
+                    </div>
+                    <!-- <section class="timer">
+                        <ul class="d-flex">
+                            <li><strong class="color-primary">30</strong><br><strong class="color-black">ثانيه</strong></li><span class="color-gray">|</span>
+                            <li><strong class="color-primary">30</strong><br><strong class="color-black">دقيقه</strong></li><span class="color-gray">|</span>
+                            <li><strong class="color-primary">30</strong><br><strong class="color-black">ساعه</strong></li>
+                        </ul>
+                    </section> -->
+
+                </section>
+                <article class="gray-bg my-10">
+                    <ul class="d-flex space-between">
+                    
+                        <li><a href="edit-ad.php"><i class=" icon-edit color-gray size-24"></i></a></li>
+                        <li><a href="#report" data-toggle="modal" data-target="#report"><i class="icon-cancel color-gray size-24"></i></a></li>
+
+                        <li><a href="#signupModal" data-toggle="modal" data-target="#signupModal"><i class="icon-mail color-gray size-24"></i></a></li>
+                        <!-- <li><a href="#" class="color-red"><small >10</small><i class="icon-love size-24"></i></a></li> -->
+                        <li><a href="#"><i class="icon-trash color-gray size-24"></i></a></li>
+                        <li><a href="#"><i class="icon-whatsapp color-gray size-24"></i></a></li>
+                        <li><a href="#"><i class="icon-twitter-1 color-gray size-24"></i></a></li>
+                    </ul>
+                </article>
+                <section class="text-reverse">
+                    <button type="button" class="btn btn-primary mt-20" onclick="window.location.href='commision-payment.php'">
+                        <!-- <a href="messages.php"> -->
+                        دفع العموله
+                        <!-- </a>     -->
+                    </button>
+                </section>
+            </div>
+        </div>
+        <div class="row mt-30">
+            <div class="col-sm-12">
+                <section class="gray-bg my-10">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-default">التعليقات</button>
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+       
+    </div>
+    <div class="container">
+        <div class="row">
             <div class="col-xs-12">
-                <article class="mt-20 comment">
-                    <a href="">Ahmed Saad - </a>
-                    <span>9:00 AM</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores illo aliquid vitae commodi quas iure accusantium, nam aut sit adipisci distinctio. Voluptatum illo in molestiae ducimus quibusdam fugit tempore?</p>
-                </article>
-                <article class="mt-20 comment">
-                    <a href="">Ahmed Saad - </a>
-                    <span>9:00 AM</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores illo aliquid vitae commodi quas iure accusantium, nam aut sit adipisci distinctio. Voluptatum illo in molestiae ducimus quibusdam fugit tempore?</p>
-                </article>
-                <article class="mt-20 comment">
-                    <a href="">Ahmed Saad - </a>
-                    <span>9:00 AM</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores illo aliquid vitae commodi quas iure accusantium, nam aut sit adipisci distinctio. Voluptatum illo in molestiae ducimus quibusdam fugit tempore?</p>
-                </article>
+                <section class="auction-timer">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <i class="icon-userr color-primary"></i> <strong class="size-12">مودى </strong>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <i class=" icon-clock color-primary"></i> <span class="size-12 color-gray">منذ ساعه</span>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p> <span class="size-12 color-gray my-10"> أضاف مبلغ سوم مقابل 50 ريال</span>
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="my-10">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <i class="icon-userr color-primary"></i> <strong class="size-12">حسام فاروز</strong>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <i class=" icon-clock color-primary"></i> <span class="size-12 color-gray">منذ ساعه</span>
+                        </div>
+                        <div class="col-sm-12 ">
+                            <p> <span class="size-12 color-gray my-10"> أضاف مبلغ سوم مقابل 50 ريال أضاف مبلغ سوم مقابل 50 ريال أضاف مبلغ سوم مقابل 50 ريال أضاف مبلغ سوم مقابل 50 ريال أضاف مبلغ سوم مقابل 50 ريال أضاف مبلغ سوم مقابل 50 ريال</span>
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
             <div class="col-xs-12 mt-30">
                 <form action="">
@@ -157,6 +279,27 @@
             </div>
         </div>
     </section>
+    <div class="modal" id="signupModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+        <div class="modal-dialog text-justify"> 
+            <div class="modal-content"> 
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h5 >رساله سريعه إلى :</h5>
+                <h4 class="mb-20"><strong>أحمد آل شريف</strong></h4>
+                <textarea name="" id="" cols="30" rows="6" placeholder="اكتب رسالتك هنا .."></textarea>
+                <button type="button" class="btn btn-primary mt-20">ارسال</button>
+            </div> 
+        </div> 
+    </div>
+    <div class="modal fade text-center" id="report" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+        <div class="modal-dialog text-justify"> 
+            <div class="modal-content"> 
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="mb-20"><strong>ابلاغ عن اعلان مخالف</strong></h4>
+                <textarea name="" id="" cols="30" rows="6" placeholder="اكتب نوع المخالفه هنا .."></textarea>
+                <button type="button" class="btn btn-primary mt-20">ابلاغ المشرف</button>
+            </div> 
+        </div> 
+    </div>
 <?php
     include 'controllers/footer.php';
 ?>

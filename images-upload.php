@@ -22,17 +22,31 @@
         <div class="checkbox-card">
             <div class="row">
                 <div  class="relative">
-                    <input class="multable-photos" id="file-input" type="file" multiple>
+                    <div class="fileUpload">
+                        <input class="multable-photos upload" id="file-input" type="file" multiple>
+                        <i class="icon-camera px-5"></i>
+                        <small>اختر صور السلعه</small>
+                    </div>
                     <div id="preview" class="pro-images">
                     </div>
                 </div>
             </div>
         </div>
-        <button type="button" class="btn btn-primary mt-30" onclick="window.location.href='add-new-ad.php'">
-            <!-- <a href="messages.php"> -->
-            استمرار
-            <!-- </a>     -->
-        </button>
+        <div class="row  mt-30">
+            <div class="col-sm-4 px-0">
+                <button type="button" class="btn btn-primary" onclick="window.location.href='add-new-ad.php'">
+                    <!-- <a href="messages.php"> -->
+                    استمرار
+                    <!-- </a>     -->
+                </button>
+            </div>
+            <div class="col-sm-8 px-0">
+                <section class="text-center">
+                    <input type="checkbox" id="male" name="gender" value="male">
+                    <label for="male" class="px-10 commision-deal"><strong>اتعهد بأن جميع الصور المرفقه لنفس السلعه</strong></label>
+                </section>
+            </div>
+        </div>
     </form>
 </div>
 <?php

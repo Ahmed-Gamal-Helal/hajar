@@ -155,6 +155,11 @@ function previewImages() {
             image.title = file.name;
             image.src = this.result;
             preview.appendChild(image);
+            $("<i></i>").insertAfter(image).addClass("fa fa-window-close ");
+            $('i').click(function () {
+                $(this).prev().remove();
+                $(this).remove();
+            });
         });
 
         reader.readAsDataURL(file);

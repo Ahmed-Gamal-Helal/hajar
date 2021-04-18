@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <!-- Tab Title -->
-        <title>Rakan</title>
+        <title>المزاد</title>
         <!-- Shortcut Icon -->
         <link rel="shortcut icon" href="images/logoicon.png" />
         <!-- Font Awesome Css -->
@@ -111,41 +111,25 @@
                     </a> -->
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <div class="dropdown">
-                        <button class="btn  dropdown-toggle py-15" type="button" data-toggle="dropdown">  
-                          <span class="caret color-white"></span><span class="color-white font-regular px-adjust">ابراهيم شمس</span><span> <img height="25px" width="25px" class="mb-3 rounded" src="images/profile.png" alt=""></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="my-profile.php">
-                                <i class="icon-person px-5"></i>    
-                                My Profile</a></li>
-                            <li><a href="advertisment.php">
-                                <i class="icon-ads px-5"></i>                
-                                 My Advertisment</a></li>
-                            <li><a href="commision.php">
-                                <i class="icon-creditcard px-5"></i>                
-                                 Commision</a></li>
-                            <li class="text-center"><a href="#" class="is-favorite">
-                                 LOGOUT</a></li>
-
-                        </ul>
-                    </div>
-                </ul>
-                <ul class="nav navbar-nav  navbar-right">
-                    <li class="active"><a href="index.php" class="main-link"><i class="icon-home px-5"></i>الرئيسيه</a></li>
-                    <li><a href="messages.php" class="main-link"><i class="icon-mail px-5"></i>الرسائل</a><span class="red-dot"></span></li>
-                    <li><a href="notifications.php" class="main-link"><i class="icon-bell px-5"></i>الإشعارات</a><span class="red-dot"></span></li>
-                    <li><a href="favorites.php" class="main-link"><i class="icon-love px-5"></i>المفضله</a></li>
-                </ul>
-
-                
-
+                    <ul class="nav navbar-nav ">
+                        <li>
+                            <a href="index.php" class="p-absolute">
+                                <img src="images/logo.png" width="80px" alt="">
+                            </a>
+                        </li>
+                        <li class="active"><a href="index.php" class="main-link">الرئيسيه</a></li>
+                        <li><a href="orders.php" class="main-link">الطلبات</a></li>
+                        <li><a href="notifications.php" class="main-link">التنبيهات</a><span class="red-dot"></span></li>
+                        <li><a href="complaints.php" class="main-link">الشكاوى</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav  navbar-right">
+                        
+                        <select class="form-control borderless mt-10" id="">
+                            <option value="" >العربيه</option>
+                            <option value="" selected>English </option>
+                        </select>
+                    </ul>
                 </div>
             </div>
         </nav>
-    
     </header>
-
-
-

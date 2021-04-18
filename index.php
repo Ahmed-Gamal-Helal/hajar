@@ -1,12 +1,13 @@
 <?php
     include 'controllers/upper-header.php';
 ?>
+<hr class="my-0">
 <div class="container py-20 px-0">
     <div class="row">
-        <div class="col-md-3 px-0">
-            <button class="btn btn-warning" href="#signupModal" data-toggle="modal" data-target="#signupModal">إضافة اعلان</button>
+        <div class="col-sm-2 col-xs-3 mt-20 mb-20">
+            <button class="btn btn-warning" href="#add-advert" data-toggle="modal" data-target="#add-advert">إضافة اعلان</button>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-8 col-xs-9 mt-20">
             <div class="input-group">
                 <input type="text" class="form-control" aria-label="..." placeholder="ابحث هنا .. ">
                 <div class="input-group-btn">
@@ -22,9 +23,9 @@
                 <button class="btn btn-primary search-btn" type="button"><i class="icon-search"></i></button>
             </div>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-sm-2 col-xs-12 text-center">
             <section class="video-show">
-                <a href="#"><i class="icon-play"></i><br />
+                <a href="#" class="color-white"><i class="icon-play"></i><br />
                 <strong>شاهد الفيديو</strong>
                 </a>
             </section>
@@ -36,20 +37,20 @@
 ?>
 
     <div class="container px-0 ">
-    <section class="comment-area my-10 py-10">
-        <ul class="nav nav-tabs auction-tabs ">
-            <li class="active"><button class="btn btn-default" data-toggle="tab" href="#personal-info"><strong>المزادات القادمه</strong></button></li>
-            <li><button class="btn btn-default" data-toggle="tab" href="#change-pass"><strong>المزادات الحاليه</strong></button></li>
-            <li><button class="btn btn-default" data-toggle="tab" href="#change-phone"><strong>المزادات السابقه</strong></button></li>
-        </ul>
+        <section class="comment-area my-10 py-10">
+            <ul class="nav nav-tabs auction-tabs ">
+                <li class="active"><button class="btn btn-default" data-toggle="tab" href="#personal-info"><strong>المزادات القادمه</strong></button></li>
+                <li><button class="btn btn-default" data-toggle="tab" href="#change-pass"><strong>المزادات الحاليه</strong></button></li>
+                <li><button class="btn btn-default" data-toggle="tab" href="#change-phone"><strong>المزادات السابقه</strong></button></li>
+            </ul>
 
-    </section>
+        </section>
         <div class="profilepage">
             <div class="row">
-                <div class="col-md-3 px-0">
+                <div class="col-md-3 col-xs-6 mb-4 px-0">
                     <div class="input-group">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-primary"> كل الأقسام</button>
+                            <button type="button" class="btn btn-primary w-80"><i class="icon-menu px-10"></i> كل الأقسام</button>
                             <button type="button" class="btn btn-primary dropdown-toggle h-34" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="caret"></span>
                                 <span class="sr-only">Toggle Dropdown</span>
@@ -64,28 +65,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 px-0">
+                <div class="col-md-3 col-xs-6 mb-4 px-0">
                     <div class="input-group">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-default"> نوع المزاد</button>
+                            <button type="button" class="btn btn-default w-80"> نوع المزاد</button>
                             <button type="button" class="btn btn-default dropdown-toggle h-34" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="caret"></span>
                                 <span class="sr-only">Toggle Dropdown</span>
                             </button>
-                            <ul class="dropdown-menu">
-                                <li><button >Action</button></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
+                            <ul class="dropdown-menu radio-list">
+                                <li>
+                                    <label for="a" class="px-10">الكل</label>
+                                    <input type="radio" id="a" name="y" value="x">
+                                </li>
+                                <hr class="my-5">
+                                <li>
+                                    <label for="b" class="px-10">مزاد بيع عادى</label>
+                                    <input type="radio" id="b" name="y" value="x">
+                                </li>
+                                <hr class="my-5">
+                                <li>
+                                    <label for="c" class="px-10">مزاد بيع مباشر</label>
+                                    <input type="radio" id="c" name="y" value="x">
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 px-0">
+                <div class="col-md-3 col-xs-6 mb-4 px-0">
                     <div class="input-group">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-default"> اختر المدينه</button>
+                            <button type="button" class="btn btn-default w-80"> اختر المدينه</button>
                             <button type="button" class="btn btn-default dropdown-toggle h-34" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="caret"></span>
                                 <span class="sr-only">Toggle Dropdown</span>
@@ -100,111 +110,96 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3 col-xs-6 mb-4">
+                    <button type="button" class="btn btn-primary">بحث</button>
+                </div>
             </div>
+            <hr class="mt-10">
             <div class="tab-content">
-                <!-- tabs content -->
-                <!-- personal-info -->
-            <div id="personal-info" class="tab-pane fade in active">
-                <!-- form -->
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >First Name</label>
+                <div id="personal-info" class="tab-pane fade in active">
+                    <!-- form -->
+                    <div class="row">
                         <div class="col-sm-6">
-                            <input type="text" class="form-control" id="first name" placeholder="first name" name="first name">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >Second Name</label>
                         <div class="col-sm-6">
-                            <input type="text" class="form-control" id="second name" placeholder="second name" name="second name">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >Email</label>
                         <div class="col-sm-6">
-                            <input type="email" class="form-control" id="email" placeholder="email" name="email">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for ="sel1" class="control-label col-sm-3" >Country</label>
                         <div class="col-sm-6">
-                            <select class="form-control" id="sel1">
-                                <option value="" selected disabled>Contury</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                            </select>
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <button class="btn btn-primary mt-30">المزيد</button>
                         </div>
                     </div>
-                    <div class="form-group">        
-                        <div class="col-sm-offset-6 col-sm-4">
-                            <button type="submit" class="btn btn-primary">Update</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <!-- change-pass -->
-            <div id="change-pass" class="tab-pane fade">
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >Current password</label>
+                </div>
+                <!-- change-pass -->
+                <div id="change-pass" class="tab-pane fade">
+                <div class="row">
                         <div class="col-sm-6">
-                            <input type="password" class="form-control"  placeholder="current password" name="current password">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >New Password</label>
                         <div class="col-sm-6">
-                            <input type="password" class="form-control" placeholder="New password" name="New password">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
                         </div>
+                        
                     </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >New Password</label>
+                </div>
+                <!-- change-phone -->
+                <div id="change-phone" class="tab-pane fade">
+                    <div class="row">
                         <div class="col-sm-6">
-                            <input type="password" class="form-control"  placeholder="New password" name="New password">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
                         </div>
-                    </div>
-
-                    <div class="form-group">        
-                        <div class="col-sm-offset-6 col-sm-4">
-                            <button type="submit" class="btn btn-primary">Update</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <!-- change-phone -->
-            <div id="change-phone" class="tab-pane fade">
-                <form class="form-horizontal deletform">
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >Current Password</label>
                         <div class="col-sm-6">
-                            <input type="password" class="form-control"  placeholder="current password" >
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
                         </div>
-                    </div>
-                    <div class="form-group">        
-                        <div class="col-sm-offset-6 col-sm-4">
-                            <button type="button" class="btn btn-primary changeform">Confirm</button>
-                        </div>
-                    </div>
-                </form> 
-                <!-- form 2 -->
-                <form class="form-horizontal none showform" >
-                    <div class="form-group">
-                        <label class="control-label col-sm-3" >Phone Number</label>
                         <div class="col-sm-6">
-                            <input type="number" class="form-control"  placeholder="Phone Number" >
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-6">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-6">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-6">
+                            <?php
+                                include 'controllers/auction.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <button class="btn btn-primary mt-30">المزيد</button>
                         </div>
                     </div>
-                    <div class="form-group">        
-                        <div class="col-sm-offset-6 col-sm-4">
-                            <button type="submit" class="btn btn-primary ">Update</button>
-                        </div>
-                    </div>
-                </form>   
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
     <section class="comment-area mt-30">
@@ -227,38 +222,126 @@
                                         </select>
                                     </div>
                                 </div>
-                                    <button class="btn btn-primary search-btn" type="button"><i class="icon-search"></i></button>
-                                </div>
+                                <button class="btn btn-primary search-btn" type="button"><i class="icon-search"></i></button>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <!-- <button class="btn btn-default" type="button"><i class="icon-search"></i></button> -->
+                        
+                        <div class="col-sm-6 text-reverse">
+                            <button class="btn btn-default pa-9" type="button"><i class="icon-menu"></i></button>
+                            <button class="btn btn-default pa-9" type="button"><i class="icon-map"></i></button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <?php
-                        include 'controllers/product.php';
-                    ?>
+                <div class="col-sm-12">
+
+                    <ul class="nav nav-tabs">
+                        <li class="active"><button class="pa-9" data-toggle="tab" href="#cars"><i class="icon-car color-primary pa-9"></i><br><small><strong>حراج السيارات</strong></small></button></li>
+                        <li><button class="pa-9" data-toggle="tab" href="#buildings"><i class="icon-home-1 color-primary pa-9"></i><br><small><strong>حراج العقارات</strong></small></button></li>
+                        <li><button class="pa-9" data-toggle="tab" href="#electronics"><i class="icon-electronics color-primary pa-9"></i><br><small><strong>حراج الاجهزه</strong></small></button></li>
+
+                    </ul>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <?php
-                        include 'controllers/product.php';
-                    ?>
+
+                <div class="tab-content">
+                    <div id="cars" class="tab-pane fade in active">
+                        <div class="col-sm-12 mb-60 mt-20">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>تويوتا</small></button>
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>فورد</small></button>
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>شيفروليه</small></button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <button class="btn btn-primary mt-30">المزيد</button>
+                        </div>
+                    </div>
+                    <div id="buildings" class="tab-pane fade in">
+                        <div class="col-sm-12 mb-60 mt-20">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>مبانى</small></button>
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>فلل</small></button>
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>روف</small></button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <button class="btn btn-primary mt-30">المزيد</button>
+                        </div>
+                    </div>
+                    <div id="electronics" class="tab-pane fade in">
+                        <div class="col-sm-12 mb-60 mt-20">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>سامسونج</small></button>
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>ابل</small></button>
+                                <button type="button" class="btn btn-default mx-5 px-5"><small>شاومى</small></button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <?php
+                                include 'controllers/product.php';
+                            ?>
+                        </div>
+                        <div class="col-sm-12 text-center">
+                            <button class="btn btn-primary mt-30">المزيد</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <?php
-                        include 'controllers/product.php';
-                    ?>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <?php
-                        include 'controllers/product.php';
-                    ?>
-                </div>
-                <div class="col-sm-12 text-center">
-                    <button class="btn btn-primary mt-30">المزيد</button>
-                </div>
+
+                
             </div>
             </div>
 
@@ -267,7 +350,7 @@
         
 
             <!-- sigup modal -->
-        <div class="modal" id="signupModal"
+        <div class="modal" id="add-advert"
             role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true"> 
     
@@ -300,66 +383,7 @@
             </div> 
         </div>
 
-            <!-- forget pass -->
-        <div class="modal" id="forgetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
-            <div class="modal-dialog signmodel ml-ne"> 
-                <div class="modal-content"> 
-
-                    <form class="signupform " id="emailpassword">
-                            <!-- Modal root -->
-                        <div class="m-header"> 
-                            <h4 class="myModalLabel"> forget password </h4> 
-                        </div> 
-                        <!-- username input -->
-                        <input type="email" class="form-control" id="email" placeholder="Email"> 
-                        <button type="submit" class="toforget">send</button> 
-                    </form>
-                </div>
-            </div>
-        </div>
-
-
-            <!-- reset password  -->
-        <div class="modal" id="resetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
-            <div class="modal-dialog signmodel ml-ne"> 
-                <div class="modal-content">         
-                    <form class="signupform form-inline " id="codepass">
-
-                            <!-- Modal root -->
-                        <div class="m-header"> 
-                            <h4 class="myModalLabel"> forget password </h4> 
-                        </div> 
-                        <!-- username input -->
-                        <input type="number" class="form-control special" id="number" placeholder="__"> 
-                        <input type="number" class="form-control special" id="number2" placeholder="__"> 
-                        <input type="number" class="form-control special" id="number3" placeholder="__"> 
-                        <input type="number" class="form-control special" id="number4" placeholder="__"> 
-                        <button type="submit" class="toforget">confirm</button> 
-                    </form>
-                </div>
-            </div>
-        </div>
-
-
-            <!-- confirm reset password  -->
-        <div class="modal" id="newresetpass" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
-            <div class="modal-dialog signmodel ml-ne"> 
-                <div class="modal-content">         
-                    <form class="signupform " id="newpass" >
-                            <!-- Modal root -->
-                        <div class="m-header"> 
-                            <h4 class="myModalLabel"> New password </h4> 
-                        </div> 
-                        <!-- username input -->
-                        <input type="text" class="form-control" id="text" placeholder="New password"> 
-                        <input type="text" class="form-control" id="text" placeholder="confirm New password"> 
-                        <button type="submit" class="toforget" >confirm</button> 
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <?php
+<?php
     include 'controllers/footer.php';
 ?>
 

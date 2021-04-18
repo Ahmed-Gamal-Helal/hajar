@@ -206,7 +206,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="ارسال">
                             <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button"><i class="fa fa-paper-plane"></i></button>
+                                <button class="btn btn-primary pa-9" type="button"><i class="fa fa-paper-plane"></i></button>
                             </span>
                         </div>
                     </div>
