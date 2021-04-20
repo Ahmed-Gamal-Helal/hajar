@@ -1554,6 +1554,16 @@ button.close:hover {
 }
 
 /*** End _body-part. ***/
+.blue-complain {
+  border-right: 2px solid #2d6287;
+  padding: 0 10px;
+}
+
+.green-complain {
+  border-right: 2px solid #7bb177;
+  padding: 0 10px;
+}
+
 /*** Start _body-part.***/
 /********* MIN MEDIA *********/
 @media (min-width: 769px) {
