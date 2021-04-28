@@ -963,7 +963,7 @@ a:focus, a:hover {
 
 .bordered {
   border: 1px solid #ddd;
-  padding: 1.5rem 2rem 3rem 2rem;
+  padding: 1.5rem 2rem;
   border-radius: 1rem;
 }
 
