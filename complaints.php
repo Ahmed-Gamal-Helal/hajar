@@ -73,11 +73,8 @@
 
     <!-- modal -->
 
-        <div class="modal fade" id="add-complaints"
-            role="dialog" aria-labelledby="add-complaints"
-            aria-hidden="true" tabindex="-1"> 
-    
-            <div class="modal-dialog modal-dialog-centered signmodel"  role="document"> 
+        <div class="modal fade" id="add-complaints"  role="dialog"> 
+            <div class="modal-dialog" role="document"> 
                 <div class="modal-content"> 
                     <div class="modal-header">
                         <h4 class="modal-title">اضافة شكوى</h4>

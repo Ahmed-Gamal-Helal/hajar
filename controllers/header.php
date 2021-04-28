@@ -44,27 +44,6 @@
         }  */
           
           
-        /* Styling modal */ 
-        .modal:before { 
-            content: ''; 
-            display: inline-block; 
-            height: 100%; 
-            vertical-align: middle; 
-        } 
-          
-        .modal-dialog { 
-            display: inline-block; 
-            vertical-align: middle; 
-        } 
-          
-        .modal .modal-content { 
-            padding: 50px; 
-            -webkit-animation-name: modal-animation; 
-            -webkit-animation-duration: 0.5s; 
-            animation-name: modal-animation; 
-            animation-duration: 0.5s; 
-        } 
-          
         @-webkit-keyframes modal-animation { 
             from { 
                 top: -100px; 

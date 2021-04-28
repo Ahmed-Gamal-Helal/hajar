@@ -1402,11 +1402,6 @@ hr {
   background-color: #f8f8f8;
 }
 
-.signmodel .modal-content {
-  max-width: 400px;
-  margin: auto;
-  padding: 30px !important;
-}
 .signmodel ul li img {
   border: 1px solid #ddd;
   padding: 16px 32px;
