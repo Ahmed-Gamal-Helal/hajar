@@ -1791,6 +1791,7 @@ select.form-control.borderless {
 .img-responsive {
   width: 100%;
   border-radius: 20px;
+  max-height: 250px;
 }
 
 .sucsess img {
