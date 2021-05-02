@@ -89,6 +89,29 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="sucsess text-center">
+        <h2>شركاءانجاح</h2>
+        <p>هذاالنص يتغير</p>
+        <div class="owl-carousel">
+            <div class="item">
+                <div>
+                    <img src="images/003.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="images/020.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="images/watch.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <?php
     include 'controllers/footer.php';
 ?>
