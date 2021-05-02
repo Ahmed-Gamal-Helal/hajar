@@ -276,14 +276,28 @@ hr {
 .btn {
     padding: 6px 24px;
 }
+.plus-icon {
+    padding: 0px 9px;
+    background-color: gray;
+    margin: 0 10px;
+    color: white;
+    font-size: 21px;
+    border-radius: 50%;
+}
 .notifications-card {
-    &.type-1 {
-        border: 1px solid $stColor !important;
-        border-radius: 4px !important;
-    }
+    padding: 20px 14px !important;
     &.type-2 {
-        border-radius: 4px !important;
+        border-radius: 10px !important;
         background-color: #f8f8f8 !important;
+    }
+    .alert-dot {
+        background-color: #7bb177;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        top: 4px;
+        position: absolute;
+        right: 0;
     }
 }
 .setting-title{

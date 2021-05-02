@@ -74,10 +74,11 @@
                         <h6><strong>رقم الجوال</strong></h6>
                         <input type="number" class="form-control" placeholder="رقم الجوال">
                     </div><!-- /input-group -->
-                    <div class="input-group">
+                    <!-- <div class="input-group"> -->
                         <h6><strong>رسالتك</strong></h6>
-                        <textarea name="" id="" cols="10" rows="3"></textarea>
-                    </div><!-- /input-group -->
+                        <textarea name="msg" cols="10" rows="5"></textarea>
+                    <!-- </div> -->
+                    <!-- /input-group -->
                     <button type="submit" class="btn btn-primary mt-20 mb-20 radius-20">ارسال</button>
                 </form>
             </div>

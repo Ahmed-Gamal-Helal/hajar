@@ -4,64 +4,103 @@
 <?php
     include 'controllers/header.php';
 ?>
-<section class="global-head">
-    <div class="layer"></div>
-    <article>
-        <h4><strong>الاشعارات</strong></h4>
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">الرئيسيه</a></li>
-                <li class="breadcrumb-item active" aria-current="page">الاشعارات</li>
-            </ol>
-        </nav>
-    </article>
-</section>
+<nav aria-label="breadcrumb" class="breadcrumb">
+     <div class="container">
+         <ol class="breadcrumb mb-0">
+             <li class="breadcrumb-item"><a href="index.php">الرئيسيه</a></li>
+             <li class="breadcrumb-item active" aria-current="page">التنبيهات</li>
+         </ol>
+     </div>
+</nav>
 <div class="container m-h-50 mb-60">
     <section class="notifications">
-        <h4 class="px-10 py-20 mt-20 user-name"><strong>الإشعارات</strong> <button><i class="icon-trash color-red"></i><small>حذف الإشعار</small></button></h4>
-
         <a href="#">
-            <div class="row notifications-card mt-20">             
-                <div class="col-sm-10">
+            <div class="row notifications-card type-2 mt-20">             
+                <div class="col-sm-4">
                     <article>
-                        <h5 class="my-0 color-black"><strong>محمد السيد</strong><small class="px-10">رد على الإعلان</small></h5>
-                        <p class="size-12 mt-10 color-gray">تعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولا</p>
+                        <h5 class="my-0 color-black"><span class="alert-dot"></span><strong>رقم التنبيه : </strong><span class="px-10">123 123</span></h5>
                     </article>
                 </div>
-                <div class="col-sm-2 text-center">
-                    <span class="color-gray">4:10 PM</span>
+                <div class="col-sm-4">
+                    <article>
+                        <h5 class="my-0 color-black"><strong>حالة التنبيه : </strong><span class="px-10">جديد</span></h5>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article>
+                        <h5 class="my-0 color-black"><strong>رقم الطلب : </strong><span class="px-10">123 123</span></h5>
+                    </article>                
                 </div>
             </div>
         </a>
         <a href="#">
-            <div class="row notifications-card type-1 mt-20">
-                
-                <div class="col-sm-10">
-                    <!-- <p><a href="#" class="color-gray"><strong>Ahmed</strong></a> Commented to your post <a href="ad-details.php" class="color-primary"><strong>Pre owned rolex Pre owned rolex Pre owned rolex</a></span></p> -->
+            <div class="row notifications-card type-2 mt-20">             
+                <div class="col-sm-4">
                     <article>
-                        <h5 class="my-0 color-black"><strong>محمد السيد</strong><small class="px-10">رد على الإعلان</small></h5>
-                        <p class="size-12 mt-10 color-gray">تعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولا</p>
+                        <h5 class="my-0 color-black"><span class="alert-dot"></span><strong>رقم التنبيه : </strong><span class="px-10">123 123</span></h5>
                     </article>
                 </div>
-                <div class="col-sm-2 text-center">
-                    <span class="color-gray">4:10 PM</span>
+                <div class="col-sm-4">
+                    <article>
+                        <h5 class="my-0 color-black"><strong>حالة التنبيه : </strong><span class="px-10">جديد</span></h5>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article>
+                        <h5 class="my-0 color-black"><strong>رقم الطلب : </strong><span class="px-10">123 123</span></h5>
+                    </article>                
                 </div>
             </div>
         </a>
         <a href="#">
-            <div class="row notifications-card type-2 mt-20">
-                
-                <div class="col-sm-10">
+            <div class="row notifications-card type-2 mt-20">             
+                <div class="col-sm-4">
                     <article>
-                        <h5 class="my-0 color-black"><strong>من إدارة الموقع </strong><small class="px-10">رد على الإعلان</small></h5>
-                        <p class="size-12 mt-10 color-gray">تعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولاتعليق جديد على تويوتا كورولا</p>
+                        <h5 class="my-0 color-black"><span class="alert-dot"></span><strong>رقم التنبيه : </strong><span class="px-10">123 123</span></h5>
                     </article>
                 </div>
-                <div class="col-sm-2 text-center">
-                    <span class="color-gray">4:10 PM</span>
+                <div class="col-sm-4">
+                    <article>
+                        <h5 class="my-0 color-black"><strong>حالة التنبيه : </strong><span class="px-10">جديد</span></h5>
+                    </article>
+                </div>
+                <div class="col-sm-4">
+                    <article>
+                        <h5 class="my-0 color-black"><strong>رقم الطلب : </strong><span class="px-10">123 123</span></h5>
+                    </article>                
                 </div>
             </div>
         </a>
+       
+    </section>
+    <hr class="mt-20 mb-20">
+    <section>
+        <div class="container px-0">
+            <h3 class="mb-20"><span class="plus-icon">+</span><strong>إضافة تنبيه</strong></h3>
+            <div class="row bordered">
+                <form action="">
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <h6><strong>رقم الطلب</strong></h6>
+                            <input type="text" class="form-control"  placeholder="برجاء ادخال رقم الطلب" >
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <h6><strong>نوع التنبيه</strong></h6>
+                            <input type="number" class="form-control" placeholder="برجاء ادخال نوع التنبيه هنا">
+                        </div><!-- /input-group -->
+                    </div>
+                    <div class="col-sm-12">
+                        <h6><strong>ملاحظات</strong></h6>
+                        <textarea name="msg" cols="10" rows="5"></textarea>
+                    </div>
+                    <div class="col-sm-12 text-center">
+                        <button type="submit" class="btn btn-primary mt-20 mb-20 radius-20">ارسال</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 </div>
 <?php

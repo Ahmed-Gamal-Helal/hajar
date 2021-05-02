@@ -1204,13 +1204,30 @@ hr {
   padding: 6px 24px;
 }
 
-.notifications-card.type-1 {
-  border: 1px solid #2d6287 !important;
-  border-radius: 4px !important;
+.plus-icon {
+  padding: 0px 9px;
+  background-color: gray;
+  margin: 0 10px;
+  color: white;
+  font-size: 21px;
+  border-radius: 50%;
+}
+
+.notifications-card {
+  padding: 20px 14px !important;
 }
 .notifications-card.type-2 {
-  border-radius: 4px !important;
+  border-radius: 10px !important;
   background-color: #f8f8f8 !important;
+}
+.notifications-card .alert-dot {
+  background-color: #7bb177;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  top: 4px;
+  position: absolute;
+  right: 0;
 }
 
 .setting-title {
@@ -1631,13 +1648,12 @@ button.close:hover {
 /*** End _body-part. ***/
 /*** Start Footer ***/
 .lower-footer {
-  padding: 4rem 0;
-  background: url(../../images/bg.png);
+  padding: 1rem 0;
+  background-color: #ebf5f8;
   background-position: top;
   position: relative;
 }
 .lower-footer .layer {
-  background-color: rgba(35, 48, 46, 0.84);
   position: absolute;
   top: 0;
   left: 0;
@@ -1652,6 +1668,31 @@ button.close:hover {
 .lower-footer .form-control::placeholder {
   font-family: "Tajawal Rg" !important;
   font-size: 12px;
+}
+
+hr {
+  border-top: 1px solid #ddd !important;
+}
+
+.footer-head {
+  position: relative;
+}
+.footer-head::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 2px;
+  width: 50px;
+  background-color: #2d6287;
+}
+
+.footer-head::after {
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 2px;
+  width: 50px;
+  background-color: #2d6287;
 }
 
 /*** End Footer ***/
@@ -1746,7 +1787,6 @@ select.form-control.borderless {
 .img-responsive {
   width: 100%;
   border-radius: 20px;
-  max-height: 250px;
 }
 
 /*# sourceMappingURL=main.css.map */

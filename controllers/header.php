@@ -18,8 +18,8 @@
         <!-- ar - font -->
         <link rel="stylesheet" href="fonts/font/ar/stylesheet.css" />
 
-        <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
         <link rel="stylesheet" href="fonts/fontello/css/fontello.css" />
+        <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
 
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
