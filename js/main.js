@@ -99,8 +99,9 @@ $(function() {
     $('.basic .owl-carousel').owlCarousel({
         rtl:true,
         nav:false,
-        margin:25,
+        margin:0,
         dots:true,
+        autoplay:true,
         responsive:{
             0:{
                 items:1
@@ -114,12 +115,18 @@ $(function() {
         rtl:true,
         loop: true,
         margin: 10,
-        nav: true,
+        nav: false,
+        autoplay: true,
         responsive: {
             0: {
+                items: 1
+            },
+            767: {
                 items: 4
             },
-            
+            420: {
+                items: 2
+            }
         }
     });
 

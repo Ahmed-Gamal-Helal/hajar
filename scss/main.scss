@@ -55,10 +55,10 @@ body {
     font-family: $baseFont;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Proxima Nova Rg';
+    font-family: 'Tajawal Rg';
 }
 a {
-    font-family: 'Proxima Nova Rg';
+    font-family: 'Tajawal Rg';
 	line-height: 1.7;
 	margin: 0px;
 	-webkit-transition: all 0.4s;
@@ -83,12 +83,12 @@ input, textarea, select {
 	outline: none;
     &::placeholder {
         font-family: $baseFont !important;
-        color: #DDD !important;
+        color: #afafaf !important;
+        font-size: 12px !important;
     }
 }
 select.form-control {
     box-shadow: inset 0 0 0 0 !important;
-    border: 1px solid #f1f3f5 !important;
 }
 button {
 	outline: none !important;
@@ -122,6 +122,9 @@ p {
 }
 .width-adjust {
     width: 100% !important;
+}
+.width-50 {
+    width: 50% !important;
 }
 .upload-it {
     padding-top: 1.2em;
@@ -160,15 +163,54 @@ input.personal-passport {
 .margin-adjusting {
     margin: 6em 0;
 }
+.color-primary {
+    color: $stColor !important;
+}
+.breadcrumb {
+    background-color: $stColor;
+    border-radius: 0;
+    ol {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .breadcrumb-item {
+        color: white !important;
+        font-size: 11px;
+        a {
+            color: white !important;
+        }
+    }
+}
 .global-head {
-    background-color: $graybg;
+    background: url(../../images/bg.png);
+    background-position: top;
     padding: $size-5  $size-20 $size-10;
+    text-align: center;
     margin-top: $size-10;
-    border-radius: $size-10;
-    border: 1px solid $grayborder;
     transform: translateY($size-10);
     z-index: 9;
     position: relative;
+    color: white;
+    padding: 50px 0 0 0;
+    .layer {
+        background-color: rgba($color: #23302E, $alpha: .84);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    article {
+        position: relative;
+    }
+    
+    h4 {
+        padding-bottom: 50px;
+        strong {
+            border-bottom: 3px solid white;
+            padding-bottom: 8px;
+        }
+    }
     &__no-border {
         border: none !important
     }
@@ -179,24 +221,17 @@ input.personal-passport {
     &--no-transform {
         transform: translateY(0);
     }
-    article p {
-        color: $grayborder;
-        font-size: $size-12;
-    }
 }
 .product-card {
-    border: 1px solid $graybg;
-    border-top: none;
-    
+    border: 1px solid #dfdfdf;
+    margin: 10px 0;
     // border-radius: 10px;
-    // padding: 15px 10px 10px;
+    padding: 15px;
+    background-color: white;
     h4 {
-        margin-top: $size-20;
-        color: $secColor;
+        font-size: 14px;
     }
-    &__img {
-        margin-top: $size-20;
-    }
+   
     &__p {
         color: $grayborder;
         font-size: $size-14;
@@ -223,9 +258,17 @@ input.personal-passport {
     .rate {
         color: $gold;
         font-size: $size-12;
+        display: inline-block;
         i {
             font-size: $size-16;
         }
+    }
+}
+.related-ads-title {
+    margin-bottom: 60px;
+    strong {
+        border-bottom: 3px solid $stColor;
+        padding-bottom: 8px;
     }
 }
 .size-10 {
@@ -237,8 +280,11 @@ input.personal-passport {
 .size-12 {
     font-size: $size-12;
 }
+.size-24 {
+    font-size: 24px;
+}
 .color-gray {
-    color: #7e899c;
+    color: #a0a0a0;
 }
 .color-black {
     color: #000000;
@@ -254,9 +300,16 @@ input.personal-passport {
 .mb-4 {
     margin-bottom: 4px;
 }
+.mb-0 {
+    margin-bottom: 0;
+}
 .my-5 {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+.my-10 {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
 }
 .m-h-50 {
     min-height: 60vh;
@@ -264,10 +317,9 @@ input.personal-passport {
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
-    float: initial !important;
 }
 .about {
-    background: url(../images/bg.png);
+    background: url(../../images/bg.png);
     background-position: center;
     height: 60vh;
     width: 100%;
@@ -277,18 +329,27 @@ input.personal-passport {
 .mt-10 {
     margin-top: $size-10 !important;
 }
+.mb-10 {
+    margin-bottom: $size-10 !important;
+}
 .mt-20 {
     margin-top: $size-20 !important;
 }
 .mt-30 {
     margin-top: $size-30 !important; 
 }
+.mt-50 {
+    margin-top: 50px !important; 
+}
 .mb-60 {
     margin-bottom: 60px !important; 
 }
-input, .input-group-btn button {
+.mt-60 {
+    margin-top: 60px !important; 
+}
+.input-group-btn button {
     box-shadow: inset 0 0 0 0 !important;
-    border: 1px solid #f1f3f5 !important;
+    border: 1px solid #929292 !important;
     &:focus {
         -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #eee !important;
         box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #eee !important;
@@ -311,6 +372,8 @@ input, .input-group-btn button {
 @import '_public';
 /*** End _body-part. ***/
 
+@import '_complain';
+
 /*** Start _body-part.***/
 @import '_media-query';
 /*** End _body-part. ***/
@@ -331,10 +394,83 @@ select.form-control.borderless {
     border: none !important;
     max-width: 95px;
 }
+.navbar-right {
+    float: right !important;
+}
+.slick-slider, .slider-nav {
+    direction: ltr !important;
+}
 .comment {
     border: 1px solid #fff;
     box-shadow: -1px 2px 5px 0px #80808069;
     border-radius: 10px;
     padding: 7px 12px;
     background-color: white;
+}
+.nav-tabs {
+    border-bottom: none !important;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.inline{
+    display: inline-block;
+}
+.left{
+    float: right !important;
+}
+.basic-butt{
+background-color: rgb(123 177 119);
+color: #fff;
+padding: 5px 10px;
+font-size: 12px;
+border-radius: 6px;
+}
+.modal-h-li{
+    padding: 5px 0px 2px 15px;
+    font-size: 12px;
+    span{
+        color: #7e899c;
+    }
+}
+
+.form-butt{
+    background-color: #58abc8;
+    padding: 5px 20px;
+    margin: 20px 2px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 10px
+}
+.basic{
+    .item{
+        max-height: 350px;
+        .title-caro {
+            position: absolute;
+            top: 35%;
+            left:20%;
+            right: 20%;
+            text-align: center;
+            color: #fff;
+        }
+        img{
+            height: 100%;
+        }
+    }
+}
+.img-responsive {
+    width: 100%;
+    border-radius: 20px;
+    max-height: 250px;
+}
+.sucsess{
+
+    
+    .item{
+
+    }
+    img{
+        height: 50px;
+    }
 }

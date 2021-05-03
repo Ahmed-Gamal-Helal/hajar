@@ -4,6 +4,7 @@
     background-color: #ebf5f8;
     background-position: top;
     position: relative;
+    margin-top: 3rem !important;
     .layer {
         position: absolute;
         top: 0;
@@ -44,4 +45,8 @@ hr {
     height: 2px;
     width: 50px;
     background-color: $stColor;
+}
+.socials {
+    justify-content: center;
+    padding: 10px;
 }

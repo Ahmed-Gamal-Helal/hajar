@@ -19,6 +19,16 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+            <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                <ul class="d-flex socials">
+                    <li><a href="#" target="_blank" class="color-white px-10"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#" target="_blank" class="color-white px-10"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#" target="_blank" class="color-white px-10"><i class="icon-google"></i></a></li>
+                    <li><a href="#" target="_blank" class="color-white px-10"><i class="icon-instagram"></i></a></li>
+                    <li><a href="#" target="_blank" class="color-white px-10"><i class="icon-linkedin"></i></a></li>
+                </ul>
+            </div>
             
         </div>
     </div>

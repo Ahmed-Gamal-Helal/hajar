@@ -18,59 +18,22 @@
             <div class="row notifications-card type-2 mt-20">             
                 <div class="col-sm-4">
                     <article>
-                        <h5 class="my-0 color-black"><span class="alert-dot"></span><strong>رقم التنبيه : </strong><span class="px-10">123 123</span></h5>
+                        <h5 class="my-0 color-black d-flex"><span class="alert-dot"></span><strong>رقم التنبيه : </strong><span class="px-10">123 123</span></h5>
                     </article>
                 </div>
                 <div class="col-sm-4">
                     <article>
-                        <h5 class="my-0 color-black"><strong>حالة التنبيه : </strong><span class="px-10">جديد</span></h5>
+                        <h5 class="my-0 color-black d-flex"><strong>حالة التنبيه : </strong><span class="px-10">جديد</span></h5>
                     </article>
                 </div>
                 <div class="col-sm-4">
                     <article>
-                        <h5 class="my-0 color-black"><strong>رقم الطلب : </strong><span class="px-10">123 123</span></h5>
+                        <h5 class="my-0 color-black d-flex"><strong>رقم الطلب : </strong><span class="px-10">123 123</span></h5>
                     </article>                
                 </div>
             </div>
         </a>
-        <a href="#">
-            <div class="row notifications-card type-2 mt-20">             
-                <div class="col-sm-4">
-                    <article>
-                        <h5 class="my-0 color-black"><span class="alert-dot"></span><strong>رقم التنبيه : </strong><span class="px-10">123 123</span></h5>
-                    </article>
-                </div>
-                <div class="col-sm-4">
-                    <article>
-                        <h5 class="my-0 color-black"><strong>حالة التنبيه : </strong><span class="px-10">جديد</span></h5>
-                    </article>
-                </div>
-                <div class="col-sm-4">
-                    <article>
-                        <h5 class="my-0 color-black"><strong>رقم الطلب : </strong><span class="px-10">123 123</span></h5>
-                    </article>                
-                </div>
-            </div>
-        </a>
-        <a href="#">
-            <div class="row notifications-card type-2 mt-20">             
-                <div class="col-sm-4">
-                    <article>
-                        <h5 class="my-0 color-black"><span class="alert-dot"></span><strong>رقم التنبيه : </strong><span class="px-10">123 123</span></h5>
-                    </article>
-                </div>
-                <div class="col-sm-4">
-                    <article>
-                        <h5 class="my-0 color-black"><strong>حالة التنبيه : </strong><span class="px-10">جديد</span></h5>
-                    </article>
-                </div>
-                <div class="col-sm-4">
-                    <article>
-                        <h5 class="my-0 color-black"><strong>رقم الطلب : </strong><span class="px-10">123 123</span></h5>
-                    </article>                
-                </div>
-            </div>
-        </a>
+      
        
     </section>
     <hr class="mt-20 mb-20">

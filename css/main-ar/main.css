@@ -1573,6 +1573,20 @@ button.close:hover {
   margin-top: 10%;
 }
 
+#success-slider .owl-carousel .owl-item img {
+  height: 80px !important;
+  border-radius: 10px !important;
+  margin: 1rem auto !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+
+#basic-slider .owl-carousel .owl-item img {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
 /*** End _body-part. ***/
 .blue-complain {
   border-right: 2px solid #2d6287;
@@ -1656,6 +1670,7 @@ button.close:hover {
   background-color: #ebf5f8;
   background-position: top;
   position: relative;
+  margin-top: 3rem !important;
 }
 .lower-footer .layer {
   position: absolute;
@@ -1697,6 +1712,11 @@ hr {
   height: 2px;
   width: 50px;
   background-color: #2d6287;
+}
+
+.socials {
+  justify-content: center;
+  padding: 10px;
 }
 
 /*** End Footer ***/
@@ -1774,11 +1794,11 @@ select.form-control.borderless {
 }
 
 .basic .item {
-  max-height: 400px;
+  max-height: 350px;
 }
 .basic .item .title-caro {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 20%;
   right: 20%;
   text-align: center;

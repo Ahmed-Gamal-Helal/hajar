@@ -631,3 +631,19 @@ button.close {
 .modal-dialog{
     margin-top: 10%;
 }
+#success-slider {
+    .owl-carousel .owl-item img {
+        height: 80px !important;
+        border-radius: 10px !important;
+        margin: 1rem auto !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        width: auto !important;
+    }
+}
+#basic-slider {
+    .owl-carousel .owl-item img {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+}

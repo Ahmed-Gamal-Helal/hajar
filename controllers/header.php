@@ -18,8 +18,8 @@
         <!-- ar - font -->
         <link rel="stylesheet" href="fonts/font/ar/stylesheet.css" />
 
-        <link rel="stylesheet" href="fonts/fontello/css/fontello.css" />
         <link rel="stylesheet" href="fonts/icons/css/fontello.css" />
+        <link rel="stylesheet" href="fonts/fontello/css/fontello.css" />
 
         <link rel="stylesheet" type="text/css" href="css/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
@@ -83,7 +83,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="fa fa-bars"></span>                        
+                        <span class="fa fa-bars color-primary"></span>                        
                     </button>
                     <!-- <a class="navbar-brand" href="#">
                         <img src="images/001.png" alt="">

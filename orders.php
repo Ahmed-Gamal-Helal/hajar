@@ -132,9 +132,9 @@
             <div class="modal-dialog modal-dialog-centered signmodel"  role="document"> 
                 <div class="modal-content"> 
 
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </button> -->
 
                     <div class="modal-body">
                     <!-- detailes -->
@@ -177,7 +177,7 @@
                         <h4 class="">الاجراءات </h4>
                         <div class=" mt-30">
                             <div class="row">
-                                <div class="col-md-10 col-sm-9 col-xs-8 mb-20">
+                                <div class="col-md-12 col-sm-12 mb-20">
                                     <table class="table table-bordered">
                                         <thead>
                                             <tr>
@@ -189,17 +189,15 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                            <th scope="row">nba</th>
-                                            <td>20/1/20</td>
-                                            <td>5/4/20</td>
-                                            <td>منتهي</td>
+                                                <td scope="row">nba</td>
+                                                <td>20/1/20</td>
+                                                <td>5/4/20</td>
+                                                <td>منتهي</td>
                                             </tr>
                                         </tbody>
                                     </table> 
                                 </div>
-                                <div class="col-md-2 col-sm-3 col-xs-4 mb-20">
-                                    <button>الاجراءات</button>
-                                </div>
+                                
                             </div>
                         </div>
                     <!-- detailes -->

@@ -41,7 +41,7 @@
                 <div class="col-sm-3">
                   <h5 class="color-primary footer-head"><strong>تواصل معنا</strong></h5>
                   <ul class="">
-                    <li><a href="#" class="color-black"> <i class="size-10 color-primary icon-pin mx-5"></i> <small><strong>الرياض</strong></small></a></li>
+                    <li><a href="#" class="color-black"> <i class="size-10 color-primary icon-placeholder mx-5"></i> <small><strong>الرياض</strong></small></a></li>
                     <li><a href="#" class="color-black"> <i class="size-10 color-primary icon-phone mx-5"></i> <small><strong>+96534345234234</strong></small></a></li>
                     <li><a href="#" class="color-black"> <i class="size-10 color-primary icon-mail mx-5"></i> <small><strong>a@d.co</strong></small></a></li>
                   </ul>
