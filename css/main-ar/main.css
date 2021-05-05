@@ -1715,8 +1715,8 @@ hr {
 }
 
 .socials {
-  justify-content: center;
-  padding: 10px;
+  justify-content: flex-end;
+  padding: 10px 0;
 }
 
 /*** End Footer ***/
