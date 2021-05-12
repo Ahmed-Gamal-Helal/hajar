@@ -413,3 +413,54 @@ select.form-control.borderless {
 .justify-center {
     justify-content: center;
 }
+
+.inline{
+    display: inline-block;
+}
+.left{
+    float: left;
+}
+.basic-butt{
+background-color: rgb(123 177 119);
+color: #fff;
+padding: 5px 10px;
+font-size: 12px;
+border-radius: 6px;
+}
+.modal-h-li{
+    padding: 5px 0px 2px 15px;
+    font-size: 12px;
+    span{
+        color: #7e899c;
+    }
+}
+
+.form-butt{
+    background-color: #58abc8;
+    padding: 5px 20px;
+    margin: 20px 2px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 10px
+}
+.basic{
+    .item{
+        max-height: 400px;
+        .title-caro {
+            position: absolute;
+            top: 50%;
+            left:20%;
+            right: 20%;
+            text-align: center;
+            color: #fff;
+        }
+        img{
+            height: 100%;
+        }
+    }
+}
+    .img-responsive {
+        width: 100%;
+        border-radius: 20px;
+        max-height: 250px;
+    }

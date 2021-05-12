@@ -96,22 +96,18 @@ $(function() {
     //     $(this).addClass('active').siblings().removeClass('active');
     // });
 
-    // $('.our-news .owl-carousel').owlCarousel({
-    //     rtl:true,
-    //     nav:true,
-    //     margin:25,
-    //     responsive:{
-    //         0:{
-    //             items:1
-    //         },
-    //         600:{
-    //             items:2
-    //         },
-    //         1000:{
-    //             items:3
-    //         }
-    //     }
-    // });
+    $('.basic .owl-carousel').owlCarousel({
+        rtl:true,
+        nav:false,
+        margin:25,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            
+        }
+    });
 
     // $('.our-news .owl-nav .owl-prev, .our-news .owl-nav .owl-next').empty();
 
