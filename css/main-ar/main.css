@@ -1552,6 +1552,10 @@ button.close:hover {
   background-color: #e9f3f6 !important;
 }
 
+.modal-dialog {
+  margin-top: 10%;
+}
+
 /*** End _body-part. ***/
 .blue-complain {
   border-right: 2px solid #2d6287;
@@ -1747,6 +1751,10 @@ select.form-control.borderless {
   width: 100%;
   border-radius: 20px;
   max-height: 250px;
+}
+
+.sucsess img {
+  height: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
